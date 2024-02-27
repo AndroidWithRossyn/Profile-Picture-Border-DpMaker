@@ -1,49 +1,19 @@
-<p align="center">
-  <h1 align="center">Profile Picture Border DpMaker</h1>
+<h1 align="center">Profile Picture Border DpMaker</h1>
   
 Want to give a simple sober look to your Profile Picture or your WhatsApp DP or any of social media sites. Here we introduce a very simple Border profile picture and DP Maker app, this app is streaming among huge users.
-<br>
-<br>
-<br>
 
-  
-- ⚡  If You want to join us than message on <a href="https://wa.me/+919694260426/">Whatsapp</a> , <a href="banrossyn@gmail.com">Mail</a>
-&
-<a href="https://t.me/banrossyn">Telegram</a>. 
+<div align="center">
 
-> Note: `-- Apache License 2.0` you can't Publish any Source code without permission.
+<a href="https://t.me/banrossyn" target="_blank"><img src="https://img.shields.io/badge/Telegram-%40banrossyn-28a8ea"></a>
+<a href="https://wa.me/+919694260426/" target="_blank"><img src="https://img.shields.io/badge/whatsapp-%40+919694260426-28a8ea"></a>
+<a href="https://www.linkedin.com/in/banrossyn/" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-banrossyn-informational"></a>
+<a href="mailto:banrossyn@gmail.com"><img src="https://img.shields.io/badge/Email-banrossyn%40gmail.com-blue"></a>
 
-  
-#
+</div>
+
+## Download Now:
 <p align="center">
-    <a href="https://www.paypal.com/paypalme/banrossyn">
-      <img src="https://user-images.githubusercontent.com/97843190/184054819-e2e80e69-df46-4d38-8769-5d591673d412.png" Width="400"/>
-    </a>
-  </p>
-<p align="center">If you like my work and Source Code is really helpful for you, <strong>Show Some Love</strong></p>
-
-
-# Source Code Available at Low Price.
-
-For any inquiry, app support or app customization contact us at
-
-–  banrossyn@gmail.com
-
-–  https://wa.me/+919694260426/
-
-–  https://t.me/banrossyn/
-
-# Note:
-This source code will be offical given directly through the developer. You will not find this on any selling website. To buy the source code, you have to directly connect with the developer. For this, payment will have to be made through the method given by the developer, after payment you will be given the source code through mail. Any kind of change in the app will be charged separately. After purchasing the app, you will be helped till it is published.
-
-Regars
-
-Rossyn
-
-
- # Download Now:
-<p align="center">
-    <a href="https://github.com/OmaPrakash/Profile-Picture-Border-DpMaker/raw/main/PerfectX.apk">
+    <a href="https://github.com/AndroidWithRossyn/Profile-Picture-Border-DpMaker/raw/main/PerfectX.apk">
       <img src="https://user-images.githubusercontent.com/97843190/183300573-ac4dd10f-b7e2-476d-a36d-7dd12ff497c7.png" width ="300" />
     </a>
   </p>
@@ -60,7 +30,7 @@ This app is facilitated by direct adding your created profiles pics to social si
 
 <p align="center">
     <a href="">
-      <img src="https://github.com/OmaPrakash/Profile-Picture-Border-DpMaker/blob/main/ScreenShots/p1.png?raw=true" width ="1280" />
+      <img src="https://github.com/AndroidWithRossyn/Profile-Picture-Border-DpMaker/blob/main/ScreenShots/p1.png?raw=true" width ="1280" />
     </a>
   </p>
   
@@ -70,7 +40,7 @@ We provide Unlimited beautiful design with different pattern circular, squire fr
 
 Share your stunning artworks on Instagram, Facebook, WhatsApp, Snapchat, TikTok…
 
-# Features:
+## Features:
 ● Collections of DP frames with many category and 250+ popluar border frames
 
 ● Adjust your photo inside DP frames
@@ -125,7 +95,7 @@ Share your stunning artworks on Instagram, Facebook, WhatsApp, Snapchat, TikTok�
   
 <p align="center">
     <a href="">
-      <img src="https://github.com/OmaPrakash/Profile-Picture-Border-DpMaker/blob/main/ScreenShots/p2.png?raw=true" width ="1280" />
+      <img src="https://github.com/AndroidWithRossyn/Profile-Picture-Border-DpMaker/blob/main/ScreenShots/p2.png?raw=true" width ="1280" />
     </a>
   </p>  
 
@@ -150,18 +120,6 @@ Every frame is distinctive on its own, and there are a wide variety of themes fo
 
 
 
-# Data safety:
-No data shared with third parties
-  This app doesn't share user data with other companies or organisations.
-  
-No data collected
-  This app doesn’t collect user data
-
-# Disclaimer:
-- This video downloader is not associated with Instagram.
-- This application is NOT affiliated or endorsed by Instagram.
-- You should understand that the ownership, intellectual property rights, and any other interests of the Video, Photo, Instagram Story, Reels Video even Highlight on the platform belong to its publishers or owners. We respect such legitimate rights and interests of the publishers or the owners. We recommend you obtain permission before download and use the content, also, you shall indicate the source of the content when using the downloaded Video, Photo, Instagram Story, Reels Video even Highlight.
-- Any unauthorized reloading or downloading of content and/or violations of intellectual property. The rights are the sole responsibility of the user. and the user can Download and re upload and photo and videos.
 
 
 
@@ -195,20 +153,7 @@ No data collected
  <a>
   </p>
 
-  
-# Rate the app:
-Please consider rating the app if you are satisfied with the product. Thank you.
-# License:
-```
-Copyright 2022 Rossyn
-Licensed to the Apache Software Foundation (ASF) under one or more contributor license agreements. 
-See the NOTICE file distributed with this work for additional information regarding copyright ownership. 
-The ASF licenses this file to you under the Apache License, Version 2.0 (the "License"); 
-you may not use this file except in compliance with the License. You may obtain a copy of the 
-License at 
-  http://www.apache.org/licenses/LICENSE-2.0 
-Unless required by applicable law or agreed to in writing, software distributed under the License is 
-distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either
-express or implied. See the License for the specific language governing permissions and limitations under the License."
-  
 
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=60&section=footer"/>
+</p>
