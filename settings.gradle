@@ -31,5 +31,5 @@ dependencyResolutionManagement {
         maven { url 'https://developer.huawei.com/repo/' }
     }
 }
-rootProject.name = "xProfile"
+rootProject.name = "dpProfile"
 include ':app'

@@ -3,29 +3,23 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:background="@color/white">
+    android:background="@color/BackgroundColor">
 
-    <View
-        android:id="@+id/vStatus"
-        android:layout_width="match_parent"
-        android:layout_height="@dimen/_20sdp"
-        android:background="@color/transparent"
-        android:visibility="gone"/>
+
 
     <RelativeLayout
         android:id="@+id/tool"
         android:layout_width="match_parent"
         android:layout_height="@dimen/_38sdp"
         android:paddingStart="@dimen/_7sdp"
-        android:paddingEnd="@dimen/_7sdp"
-        android:layout_below="@id/vStatus">
+        android:paddingEnd="@dimen/_7sdp">
 
         <ImageView
             android:id="@+id/ivClose"
             android:layout_width="@dimen/_25sdp"
             android:layout_height="@dimen/_25sdp"
-            android:src="@drawable/ic_round_close"
-            android:padding="@dimen/_5sdp"
+            android:src="@drawable/ic_back"
+            android:padding="@dimen/_2sdp"
             android:background="@drawable/bg_border"
             android:layout_centerVertical="true"/>
 
@@ -37,8 +31,8 @@
             android:layout_gravity="center"
             android:text="@string/preview"
             android:textAllCaps="true"
-            android:textColor="@color/black"
-            android:textSize="@dimen/_8sdp" />
+            android:textColor="@color/white"
+            android:textSize="@dimen/_12sdp" />
 
         <ImageView
             android:id="@+id/ivShare"
@@ -59,15 +53,12 @@
         android:layout_below="@+id/tool"
         android:layout_above="@+id/iNative">
 
-        <xProfile.dpMaker.aiPhoto.removeBg.photoEditorPro.views.CornerImage
+        <com.profilemaker.dpgenerator.photoprofilepic.photoeditor.views.CornerImage
             android:id="@+id/iView"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_centerInParent="true"
-            android:layout_marginStart="@dimen/_12sdp"
-            android:layout_marginTop="@dimen/_12sdp"
-            android:layout_marginEnd="@dimen/_12sdp"
-            android:layout_marginBottom="@dimen/_12sdp"
+            android:layout_margin="@dimen/_12sdp"
             android:elevation="@dimen/_2sdp"
             android:scaleType="centerCrop"
             app:eStrokeColor="@color/white"

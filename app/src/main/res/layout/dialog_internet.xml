@@ -7,7 +7,7 @@
     android:layout_height="match_parent"
     android:padding="@dimen/_12sdp">
 
-    <xProfile.dpMaker.aiPhoto.removeBg.photoEditorPro.views.CornerLayout
+    <com.profilemaker.dpgenerator.photoprofilepic.photoeditor.views.CornerLayout
         android:id="@+id/refresh_button_container"
         android:layout_width="@dimen/_270sdp"
         android:layout_height="wrap_content"
@@ -39,7 +39,7 @@
             android:textAllCaps="true"
             android:paddingStart="@dimen/_12sdp"
             android:paddingEnd="@dimen/_12sdp"
-            android:textColor="@color/black"
+            android:textColor="@color/white"
             android:textStyle="bold"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -87,7 +87,7 @@
 
     </LinearLayout>
 
-    </xProfile.dpMaker.aiPhoto.removeBg.photoEditorPro.views.CornerLayout>
+    </com.profilemaker.dpgenerator.photoprofilepic.photoeditor.views.CornerLayout>
 
 
 

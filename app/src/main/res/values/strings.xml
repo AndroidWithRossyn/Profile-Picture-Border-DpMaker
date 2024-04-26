@@ -1,13 +1,8 @@
 <resources>
-    <string name="app_name">xProfile</string>
-    <!--AdMob or Google Ad Manager App ID-->
-    <string name="admob_app_id" translatable="false">ca-app-pub-3940256099942544~3347511713</string>
+    <string name="app_name">DP-Profile</string>
+    <string name="your_portrait">Your Personal Profile Maker</string>
+    <string name="your_portrait_main">Transforming pixels into your personalized profile masterpiece.</string>
 
-    <!--AppLovin SDK Key-->
-    <string name="applovin_sdk_key" translatable="false">93ZMqWE2FI00FtHKOcdACan5Oivwqlz3-CzVXzs1Pte15xlc6HOFqZ_ciG8spQO01JhgkdXI44oCf6kfdR9VeX</string>
-
-    <!-- OneSignal ID -->
-    <string name="oneSignal_id" translatable="false">e30964cf-7b0c-4716-9c64-8ac78b8883c4</string>
 
     <string name="save">Save</string>
     <string name="frame">Frame</string>
@@ -37,6 +32,7 @@
     <string name="no_internet">No Internet Connection</string>
     <string name="internet_dialog">You are not connected to the internet. \n Make sure wifi or mobile data is on, Airplane mode is off and try again.</string>
     <string name="retry">Retry</string>
+    <string name="continous">Create New</string>
     <string name="please_try_again">please try again</string>
     <string name="rotate">Rotate</string>
     <string name="txt_not_detect_human">No human detected!</string>
@@ -53,7 +49,7 @@
     <string name="discard_changes">Discard Changes</string>
     <string name="cancel">Cancel</string>
     <string name="style">Style</string>
-    <string name="your_portrait">Your Personal Portrait Maker</string>
+
     <string name="exposure">Exposure</string>
     <string name="brightness">Brightness</string>
     <string name="contrast">Contrast</string>

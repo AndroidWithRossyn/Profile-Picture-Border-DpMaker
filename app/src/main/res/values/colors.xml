@@ -3,11 +3,15 @@
     <color name="colorAccent">@color/mainColor</color>
     <color name="colorAccentDark">@color/mainColor</color>
     <color name="colorPrimary">@color/mainColor</color>
-    <color name="mainColor">#E8BB1A</color>
+
+    <color name="BackgroundColor">#262626</color>
+
+    <color name="mainColor">#ff7f11</color>
     <color name="white">#FFFFFF</color>
     <color name="light">#FCFCFC</color>
     <color name="black">#000000</color>
-    <color name="BackgroundColor">#FFFFFF</color>
+
+
     <color name="iBackground">#FAFAFA</color>
     <color name="lineColor">#FAFAFA</color>
     <color name="itemColor">#F0F0F0</color>
@@ -16,4 +20,6 @@
     <color name="fColor">#f9ca24</color>
     <color name="bColor">#f6e58d</color>
     <color name="iCons">#3E3E3E</color>
+
+    <color name="twoline">#505050</color>
 </resources>

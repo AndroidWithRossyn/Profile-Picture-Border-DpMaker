@@ -5,15 +5,8 @@
     android:id="@+id/activity_main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/white">
+    android:background="@color/BackgroundColor">
 
-    <View
-        android:id="@+id/vStatus"
-        android:layout_width="match_parent"
-        android:layout_height="@dimen/_25sdp"
-        android:background="@color/transparent"
-        android:visibility="gone"
-        app:layout_constraintTop_toTopOf="parent"/>
 
     <RelativeLayout
         android:id="@+id/toolbar"
@@ -21,24 +14,26 @@
         android:layout_height="@dimen/_38sdp"
         android:paddingStart="@dimen/_7sdp"
         android:paddingEnd="@dimen/_7sdp"
-        app:layout_constraintTop_toBottomOf="@id/vStatus">
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
 
         <ImageView
             android:id="@+id/ivClose"
             android:layout_width="@dimen/_25sdp"
             android:layout_height="@dimen/_25sdp"
-            android:src="@drawable/ic_round_close"
-            android:padding="@dimen/_5sdp"
+            android:layout_centerVertical="true"
             android:background="@drawable/bg_border"
-            android:layout_centerVertical="true"/>
+            android:padding="@dimen/_2sdp"
+            android:src="@drawable/ic_back" />
 
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="@dimen/_30sdp"
-            android:gravity="center|bottom"
-            android:layout_gravity="center"
-            android:orientation="horizontal"
             android:layout_centerInParent="true"
+            android:layout_gravity="center"
+            android:gravity="center|bottom"
+            android:orientation="horizontal"
             android:paddingStart="@dimen/_3sdp"
             android:paddingEnd="@dimen/_3sdp">
 
@@ -48,8 +43,9 @@
                 android:layout_height="@dimen/_30sdp"
                 android:layout_marginEnd="@dimen/_4sdp"
                 android:onClick="onClick"
-                android:padding="@dimen/_8sdp"
-                android:src="@drawable/ic_undo" />
+                android:padding="@dimen/_5sdp"
+                android:src="@drawable/ic_undo"
+                app:tint="@color/white" />
 
             <ImageView
                 android:id="@+id/imageViewRedo"
@@ -57,8 +53,9 @@
                 android:layout_height="@dimen/_30sdp"
                 android:layout_marginStart="@dimen/_4sdp"
                 android:onClick="onClick"
-                android:padding="@dimen/_8sdp"
-                android:src="@drawable/ic_redo"/>
+                android:padding="@dimen/_5sdp"
+                android:src="@drawable/ic_redo"
+                app:tint="@color/white" />
 
 
         </LinearLayout>
@@ -67,31 +64,23 @@
             android:id="@+id/ivDone"
             android:layout_width="@dimen/_25sdp"
             android:layout_height="@dimen/_25sdp"
-            android:src="@drawable/ic_save"
-            android:padding="@dimen/_5sdp"
-            android:background="@drawable/bg_border"
             android:layout_alignParentEnd="true"
-            android:layout_centerVertical="true"/>
+            android:layout_centerVertical="true"
+            android:background="@drawable/bg_border"
+            android:padding="@dimen/_5sdp"
+            android:src="@drawable/ic_round_check"
+            app:tint="@color/black"/>
 
     </RelativeLayout>
 
 
-    <com.solodroid.ads.sdk.ui.BannerAdView
-        android:orientation="horizontal"
-        android:id="@+id/iBanner"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/toolbar"/>
 
     <RelativeLayout
         android:id="@+id/main_rel_parent"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         app:layout_constraintBottom_toTopOf="@+id/guideline"
-        app:layout_constraintTop_toBottomOf="@+id/iBanner"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar"
         android:gravity="center">
 
         <ImageView
@@ -108,7 +97,7 @@
 
     </RelativeLayout>
 
-    <xProfile.dpMaker.aiPhoto.removeBg.photoEditorPro.views.CornerImage
+    <com.profilemaker.dpgenerator.photoprofilepic.photoeditor.views.CornerImage
         android:id="@+id/ivChange"
         android:layout_width="@dimen/_30sdp"
         android:layout_height="@dimen/_30sdp"
@@ -128,7 +117,7 @@
         android:id="@+id/constraintLayoutBtn"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@color/white"
+        android:background="@color/BackgroundColor"
         app:layout_constraintBottom_toBottomOf="parent">
 
 
@@ -166,7 +155,7 @@
                         android:paddingEnd="@dimen/_7sdp"
                         android:gravity="center"
                         android:text="@string/size"
-                        android:textColor="@color/black"
+                        android:textColor="@color/white"
                         android:textSize="@dimen/_8sdp" />
 
                     <SeekBar
@@ -196,7 +185,7 @@
                         android:paddingEnd="@dimen/_7sdp"
                         android:gravity="center"
                         android:text="@string/offset"
-                        android:textColor="@color/black"
+                        android:textColor="@color/white"
                         android:textSize="@dimen/_8sdp" />
 
                     <SeekBar
@@ -238,7 +227,7 @@
                         android:paddingEnd="@dimen/_7sdp"
                         android:textSize="@dimen/_8sdp"
                         android:gravity="center"
-                        android:textColor="@color/black"
+                        android:textColor="@color/white"
                         android:text="@string/threshold"/>
 
                     <SeekBar
@@ -269,7 +258,7 @@
                         android:paddingEnd="@dimen/_7sdp"
                         android:gravity="center"
                         android:textSize="@dimen/_8sdp"
-                        android:textColor="@color/black"
+                        android:textColor="@color/white"
                         android:text="@string/offset"/>
 
                     <SeekBar
@@ -312,7 +301,7 @@
                         android:paddingEnd="@dimen/_7sdp"
                         android:textSize="@dimen/_8sdp"
                         android:gravity="center"
-                        android:textColor="@color/black"
+                        android:textColor="@color/white"
                         android:text="@string/offset"/>
 
                     <SeekBar
@@ -358,14 +347,15 @@
         <View
             android:id="@+id/viewLine"
             android:layout_width="match_parent"
-            android:layout_height="1dp"
+            android:layout_height="0.5dp"
+            android:alpha=".2"
             android:background="@color/lineColor"
             app:layout_constraintBottom_toTopOf="@+id/rvOptions"/>
 
         <androidx.recyclerview.widget.RecyclerView
             android:id="@+id/rvOptions"
             android:layout_width="wrap_content"
-            android:layout_height="@dimen/_47sdp"
+            android:layout_height="wrap_content"
             app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
             android:orientation="horizontal"
             android:nestedScrollingEnabled="false"

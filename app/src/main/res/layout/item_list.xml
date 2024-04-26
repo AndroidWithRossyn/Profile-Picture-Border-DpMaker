@@ -3,6 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical"
     android:gravity="center"
+    android:background="@color/BackgroundColor"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content">
 
@@ -27,9 +28,9 @@
     </io.github.florent37.shapeofview.shapes.CircleView>
 
     <TextView
-        android:textSize="@dimen/_6sdp"
+        android:textSize="@dimen/_10sdp"
         android:textStyle="bold"
-        android:textColor="@color/iconColor"
+        android:textColor="@color/white"
         android:gravity="center"
         android:id="@+id/tvTitle"
         android:layout_width="wrap_content"

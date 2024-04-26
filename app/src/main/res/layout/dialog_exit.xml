@@ -11,7 +11,7 @@
         android:paddingTop="@dimen/_12sdp"
         android:orientation="vertical"
         android:layout_gravity="bottom"
-        android:background="@color/white">
+        android:background="@color/BackgroundColor">
 
         <TextView
             android:id="@+id/textViewExit"
@@ -20,18 +20,19 @@
             android:layout_marginBottom="@dimen/_7sdp"
             android:gravity="center"
             android:text="@string/are_you_sure_you_want_to_discard_changes"
-            android:textColor="@color/black"
+            android:textColor="@color/white"
             android:textSize="@dimen/_10sdp" />
 
         <TextView
             android:id="@+id/textViewDiscard"
             android:layout_width="match_parent"
-            android:layout_height="@dimen/_35sdp"
+            android:layout_height="@dimen/_40sdp"
             android:layout_below="@+id/textViewExit"
             android:layout_centerHorizontal="true"
             android:layout_marginStart="@dimen/_12sdp"
             android:layout_marginEnd="@dimen/_12sdp"
-            android:background="@color/mainColor"
+            android:background="@drawable/bg_round"
+            android:backgroundTint="@color/mainColor"
             android:clickable="true"
             android:focusable="true"
             android:gravity="center"

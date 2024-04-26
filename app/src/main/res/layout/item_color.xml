@@ -4,10 +4,11 @@
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
     android:orientation="vertical"
+    android:background="@color/BackgroundColor"
     android:gravity="center">
 
 
-    <xProfile.dpMaker.aiPhoto.removeBg.photoEditorPro.views.CircleView
+    <com.profilemaker.dpgenerator.photoprofilepic.photoeditor.views.CircleView
         android:id="@+id/iColor"
         android:layout_width="@dimen/_40sdp"
         android:layout_height="@dimen/_40sdp"
@@ -19,9 +20,9 @@
         app:cv_strokeWidthSize="3"/>
 
     <TextView
-        android:textSize="@dimen/_6sdp"
+        android:textSize="@dimen/_10sdp"
         android:textStyle="bold"
-        android:textColor="@color/iconColor"
+        android:textColor="@color/white"
         android:gravity="center"
         android:id="@+id/tvTitle"
         android:layout_width="wrap_content"

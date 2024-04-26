@@ -1,81 +1,72 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:background="@color/white"
+    android:background="@color/BackgroundColor"
     android:orientation="vertical">
-
-    <View
-        android:id="@+id/vStatus"
-        android:layout_width="match_parent"
-        android:layout_height="@dimen/_25sdp"
-        android:background="@android:color/transparent"
-        android:visibility="gone"
-        app:layout_constraintTop_toTopOf="parent"/>
 
     <RelativeLayout
         android:id="@+id/tool"
         android:layout_width="match_parent"
         android:layout_height="@dimen/_38sdp"
         android:paddingStart="@dimen/_7sdp"
-        android:paddingEnd="@dimen/_7sdp"
-        android:layout_below="@id/vStatus">
+        android:paddingEnd="@dimen/_7sdp">
 
         <ImageView
             android:id="@+id/ivClose"
             android:layout_width="@dimen/_25sdp"
             android:layout_height="@dimen/_25sdp"
-            android:src="@drawable/ic_round_close"
-            android:padding="@dimen/_5sdp"
+            android:layout_centerVertical="true"
             android:background="@drawable/bg_border"
-            android:layout_centerVertical="true"/>
+            android:padding="@dimen/_2sdp"
+            android:src="@drawable/ic_back" />
 
         <ImageView
             android:id="@+id/ivGone"
             android:layout_width="@dimen/_38sdp"
             android:layout_height="@dimen/_38sdp"
+            android:layout_centerInParent="true"
             android:layout_gravity="center"
-            android:src="@drawable/iv_loading"
             android:scaleX="1.8"
             android:scaleY="1.8"
-            android:layout_centerInParent="true"
-            android:visibility="gone"/>
+            android:src="@drawable/iv_loading"
+            android:visibility="gone" />
 
 
         <ImageView
             android:id="@+id/ivPreview"
             android:layout_width="@dimen/_25sdp"
             android:layout_height="@dimen/_25sdp"
-            android:src="@drawable/ic_preview"
-            android:padding="@dimen/_5sdp"
+            android:layout_centerVertical="true"
             android:layout_marginEnd="@dimen/_9sdp"
-            android:background="@drawable/bg_border"
             android:layout_toStartOf="@+id/ivDone"
-            android:layout_centerVertical="true"/>
+            android:background="@drawable/bg_border"
+            android:padding="@dimen/_5sdp"
+            android:src="@drawable/ic_preview" />
 
         <ImageView
             android:id="@+id/ivDone"
             android:layout_width="@dimen/_25sdp"
             android:layout_height="@dimen/_25sdp"
-            android:src="@drawable/ic_save"
-            android:padding="@dimen/_5sdp"
-            android:rotation="-90"
-            android:background="@drawable/bg_border"
             android:layout_alignParentEnd="true"
-            android:layout_centerVertical="true"/>
+            android:layout_centerVertical="true"
+            android:background="@drawable/bg_border"
+            android:padding="@dimen/_5sdp"
+        app:tint="@color/black"
+            android:src="@drawable/ic_round_check" />
 
     </RelativeLayout>
 
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="@dimen/_9sdp"
+        android:layout_above="@+id/iConfig"
         android:layout_below="@id/tool"
-        android:layout_above="@+id/iConfig">
+        android:layout_margin="@dimen/_9sdp">
 
-        <xProfile.dpMaker.aiPhoto.removeBg.photoEditorPro.views.SquareLayout
+        <com.profilemaker.dpgenerator.photoprofilepic.photoeditor.views.SquareLayout
             android:id="@+id/iSquare"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
@@ -85,24 +76,24 @@
             <ImageView
                 android:id="@+id/ivImage"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"/>
+                android:layout_height="match_parent" />
 
             <ImageView
                 android:id="@+id/ivRound"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:src="@drawable/iv_circle"
                 android:scaleX="1.15"
                 android:scaleY="1.15"
-                app:tint="@color/white"/>
+                android:src="@drawable/iv_circle"
+                app:tint="@color/white" />
 
             <ImageView
                 android:id="@+id/iBg"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:src="@drawable/popular_01"/>
+                android:src="@drawable/popular_01" />
 
-        </xProfile.dpMaker.aiPhoto.removeBg.photoEditorPro.views.SquareLayout>
+        </com.profilemaker.dpgenerator.photoprofilepic.photoeditor.views.SquareLayout>
 
     </RelativeLayout>
 
@@ -111,23 +102,24 @@
         android:id="@+id/iConfig"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@color/white"
-        android:orientation="vertical"
-        android:layout_alignParentBottom="true">
+        android:layout_alignParentBottom="true"
+        android:background="@color/BackgroundColor"
+        android:orientation="vertical">
 
         <View
             android:layout_width="match_parent"
             android:layout_height="0.5dp"
-            android:background="@color/itemColor"/>
+            android:alpha="0.2"
+            android:background="@color/itemColor" />
 
         <LinearLayout
             android:id="@+id/iAdjust"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:paddingTop="@dimen/_7sdp"
             android:gravity="center"
-            android:visibility="gone"
-            android:orientation="vertical">
+            android:orientation="vertical"
+            android:paddingTop="@dimen/_7sdp"
+            android:visibility="gone">
 
             <LinearLayout
                 android:id="@+id/ibColor"
@@ -140,19 +132,21 @@
                     android:id="@+id/ivHorizontal"
                     android:layout_width="@dimen/_25sdp"
                     android:layout_height="@dimen/_25sdp"
-                    android:src="@drawable/ic_horizontal"
-                    android:padding="@dimen/_6sdp"
                     android:layout_marginEnd="@dimen/_9sdp"
-                    android:background="@drawable/bg_tool"/>
+                    android:background="@drawable/bg_tool"
+                    android:padding="@dimen/_6sdp"
+                    android:src="@drawable/ic_horizontal"
+                    app:tint="@color/white" />
 
                 <ImageView
                     android:id="@+id/ivVertical"
                     android:layout_width="@dimen/_25sdp"
                     android:layout_height="@dimen/_25sdp"
-                    android:src="@drawable/ic_vertical"
-                    android:padding="@dimen/_6sdp"
                     android:layout_marginStart="@dimen/_9sdp"
-                    android:background="@drawable/bg_tool"/>
+                    android:background="@drawable/bg_tool"
+                    android:padding="@dimen/_6sdp"
+                    android:src="@drawable/ic_vertical"
+                    app:tint="@color/white" />
 
 
             </LinearLayout>
@@ -164,37 +158,37 @@
 
                 <TextView
                     android:layout_width="0dp"
-                    android:layout_weight="1"
                     android:layout_height="wrap_content"
-                    android:text="@string/rotate"
                     android:layout_marginStart="@dimen/_20sdp"
+                    android:layout_weight="1"
                     android:gravity="start"
-                    android:textSize="@dimen/_7sdp"
-                    android:textColor="@color/black"/>
+                    android:text="@string/rotate"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/_7sdp" />
 
                 <TextView
                     android:layout_width="0dp"
-                    android:layout_weight="1"
                     android:layout_height="wrap_content"
-                    android:text="@string/color"
-                    android:gravity="end"
                     android:layout_marginEnd="@dimen/_20sdp"
-                    android:textSize="@dimen/_7sdp"
-                    android:textColor="@color/black"/>
+                    android:layout_weight="1"
+                    android:gravity="end"
+                    android:text="@string/color"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/_7sdp" />
 
             </LinearLayout>
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:padding="@dimen/_4sdp"
-                android:orientation="horizontal">
+                android:orientation="horizontal"
+                android:padding="@dimen/_4sdp">
 
                 <SeekBar
                     android:id="@+id/sbRotate"
                     android:layout_width="0dp"
-                    android:layout_weight="1"
                     android:layout_height="@dimen/_30sdp"
+                    android:layout_weight="1"
                     android:maxHeight="@dimen/_3sdp"
                     android:progress="0"
                     android:progressDrawable="@drawable/prog_line"
@@ -204,11 +198,11 @@
                 <SeekBar
                     android:id="@+id/sbColor"
                     android:layout_width="0dp"
-                    android:layout_weight="1"
                     android:layout_height="@dimen/_30sdp"
+                    android:layout_weight="1"
+                    android:max="200"
                     android:maxHeight="@dimen/_3sdp"
                     android:progress="100"
-                    android:max="200"
                     android:progressDrawable="@drawable/prog_line"
                     android:thumb="@drawable/prog_thumb" />
 
@@ -220,94 +214,89 @@
             android:id="@+id/iProfile"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:paddingBottom="@dimen/_9sdp"
-            android:orientation="vertical">
+            android:orientation="vertical"
+            android:paddingBottom="@dimen/_9sdp">
 
             <com.google.android.material.tabs.TabLayout
                 android:id="@+id/tabProfile"
                 android:layout_width="match_parent"
-                android:layout_height="@dimen/_26sdp"
+                android:layout_height="wrap_content"
                 android:layout_marginBottom="@dimen/_4sdp"
+                android:background="@color/BackgroundColor"
                 app:tabBackground="@color/transparent"
-                android:background="@color/white"
                 app:tabGravity="fill"
                 app:tabIndicatorGravity="center"
                 app:tabIndicatorHeight="0dp"
                 app:tabMode="scrollable"
                 app:tabRippleColor="@color/transparent"
-                app:tabTextAppearance="@style/customTabLayout"
                 app:tabSelectedTextColor="@color/mainColor"
-                app:tabTextColor="@color/iconColor"/>
+                app:tabTextAppearance="@style/customTabLayout"
+                app:tabTextColor="@color/white" />
 
             <androidx.recyclerview.widget.RecyclerView
                 android:id="@+id/rvBg"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="horizontal"
                 android:layout_below="@id/tabProfile"
-                app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
                 android:nestedScrollingEnabled="false"
-                tools:listitem="@layout/item_list"/>
+                android:orientation="horizontal"
+                app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+                tools:listitem="@layout/item_list" />
         </RelativeLayout>
 
         <RelativeLayout
             android:id="@+id/iStickers"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+            android:orientation="vertical"
             android:paddingBottom="@dimen/_9sdp"
-            android:visibility="gone"
-            android:orientation="vertical">
+            android:visibility="gone">
 
             <com.google.android.material.tabs.TabLayout
                 android:id="@+id/tabStickers"
                 android:layout_width="match_parent"
-                android:layout_height="@dimen/_26sdp"
+                android:layout_height="wrap_content"
                 android:layout_marginBottom="@dimen/_4sdp"
+                android:background="@color/BackgroundColor"
                 app:tabBackground="@color/transparent"
-                android:background="@color/white"
                 app:tabGravity="fill"
                 app:tabIndicatorGravity="center"
                 app:tabIndicatorHeight="0dp"
                 app:tabMode="scrollable"
                 app:tabRippleColor="@color/transparent"
-                app:tabTextAppearance="@style/customTabLayout"
                 app:tabSelectedTextColor="@color/mainColor"
-                app:tabTextColor="@color/iconColor"/>
+                app:tabTextAppearance="@style/customTabLayout"
+                app:tabTextColor="@color/white" />
 
             <androidx.recyclerview.widget.RecyclerView
                 android:id="@+id/rvStickers"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_below="@id/tabStickers"
-                app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
-                android:orientation="horizontal"
                 android:nestedScrollingEnabled="false"
-                tools:listitem="@layout/item_stickers"/>
+                android:orientation="horizontal"
+                app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+                tools:listitem="@layout/item_stickers" />
         </RelativeLayout>
 
         <View
             android:layout_width="match_parent"
             android:layout_height="0.5dp"
-            android:background="@color/lineColor"/>
+            android:alpha="0.2"
+            android:background="@color/lineColor" />
 
         <androidx.recyclerview.widget.RecyclerView
             android:id="@+id/rvTool"
             android:layout_width="wrap_content"
-            android:paddingStart="@dimen/_9sdp"
-            android:paddingEnd="@dimen/_9sdp"
-            android:layout_height="@dimen/_45sdp"
-            app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
-            android:orientation="horizontal"
+            android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
             android:nestedScrollingEnabled="false"
-            tools:listitem="@layout/item_tool"/>
-
-        <com.solodroid.ads.sdk.ui.BannerAdView
             android:orientation="horizontal"
-            android:id="@+id/iBanner"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center_horizontal"/>
+            android:paddingStart="@dimen/_9sdp"
+            android:paddingEnd="@dimen/_9sdp"
+            app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+            tools:listitem="@layout/item_tool" />
+
 
     </LinearLayout>
 

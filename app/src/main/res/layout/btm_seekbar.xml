@@ -4,7 +4,7 @@
     android:layout_height="wrap_content"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical"
-    android:background="@color/white">
+    android:background="@color/BackgroundColor">
     <LinearLayout
         android:id="@+id/llSeek1"
         android:layout_width="match_parent"
@@ -19,11 +19,11 @@
             android:layout_width="@dimen/_60sdp"
             android:layout_height="wrap_content"
             android:gravity="center_vertical"
-            android:textSize="@dimen/_7sdp"
+            android:textSize="@dimen/_10sdp"
             android:text="@string/hue"
-            android:textColor="@color/black"/>
+            android:textColor="@color/white"/>
 
-        <xProfile.dpMaker.aiPhoto.removeBg.photoEditorPro.views.TwoLineSeekBar
+        <com.profilemaker.dpgenerator.photoprofilepic.photoeditor.views.TwoLineSeekBar
             android:id="@+id/sb_1"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
@@ -36,8 +36,8 @@
             android:layout_marginStart="@dimen/_7sdp"
             android:gravity="center"
             android:text="0"
-            android:textSize="@dimen/_7sdp"
-            android:textColor="@color/black"/>
+            android:textSize="@dimen/_10sdp"
+            android:textColor="@color/white"/>
 
     </LinearLayout>
 
@@ -55,11 +55,11 @@
             android:layout_width="@dimen/_60sdp"
             android:layout_height="wrap_content"
             android:gravity="center_vertical"
-            android:textSize="@dimen/_7sdp"
+            android:textSize="@dimen/_10sdp"
             android:text="@string/hue"
-            android:textColor="@color/black"/>
+            android:textColor="@color/white"/>
 
-        <xProfile.dpMaker.aiPhoto.removeBg.photoEditorPro.views.TwoLineSeekBar
+        <com.profilemaker.dpgenerator.photoprofilepic.photoeditor.views.TwoLineSeekBar
             android:id="@+id/sb_2"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
@@ -69,11 +69,11 @@
             android:id="@+id/tvValue_2"
             android:layout_width="@dimen/_20sdp"
             android:layout_height="wrap_content"
-            android:layout_marginStart="@dimen/_7sdp"
+            android:layout_marginStart="@dimen/_10sdp"
             android:gravity="center"
             android:text="0"
-            android:textSize="@dimen/_7sdp"
-            android:textColor="@color/black"/>
+            android:textSize="@dimen/_10sdp"
+            android:textColor="@color/white"/>
 
 
     </LinearLayout>
@@ -92,11 +92,11 @@
             android:layout_width="@dimen/_60sdp"
             android:layout_height="wrap_content"
             android:gravity="center_vertical"
-            android:textSize="@dimen/_7sdp"
+            android:textSize="@dimen/_10sdp"
             android:text="@string/hue"
-            android:textColor="@color/black"/>
+            android:textColor="@color/white"/>
 
-        <xProfile.dpMaker.aiPhoto.removeBg.photoEditorPro.views.TwoLineSeekBar
+        <com.profilemaker.dpgenerator.photoprofilepic.photoeditor.views.TwoLineSeekBar
             android:id="@+id/sb_3"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
@@ -106,11 +106,11 @@
             android:id="@+id/tvValue_3"
             android:layout_width="@dimen/_20sdp"
             android:layout_height="wrap_content"
-            android:layout_marginStart="@dimen/_7sdp"
+            android:layout_marginStart="@dimen/_10sdp"
             android:gravity="center"
             android:text="0"
-            android:textSize="@dimen/_7sdp"
-            android:textColor="@color/black"/>
+            android:textSize="@dimen/_10sdp"
+            android:textColor="@color/white"/>
 
     </LinearLayout>
 
@@ -118,13 +118,14 @@
         android:layout_width="match_parent"
         android:layout_height="@dimen/_37sdp"
         android:layout_gravity="bottom"
+        android:layout_marginBottom="@dimen/_10sdp"
         android:gravity="center_vertical">
 
         <ImageView
             android:id="@+id/ivClose"
             android:layout_width="@dimen/_27sdp"
             android:layout_height="@dimen/_27sdp"
-            android:layout_marginStart="@dimen/_7sdp"
+            android:layout_marginStart="@dimen/_10sdp"
             android:padding="@dimen/_6sdp"
             android:background="@drawable/bg_circle"
             android:backgroundTint="@color/itemColor"
@@ -137,7 +138,7 @@
             android:layout_weight="1"
             android:textSize="@dimen/_8sdp"
             android:gravity="center"
-            android:textColor="@color/black"
+            android:textColor="@color/white"
             android:textAllCaps="true"
             android:text="TEMPORARY"/>
 
@@ -145,7 +146,7 @@
             android:id="@+id/ivDone"
             android:layout_width="@dimen/_27sdp"
             android:layout_height="@dimen/_27sdp"
-            android:layout_marginEnd="@dimen/_7sdp"
+            android:layout_marginEnd="@dimen/_10sdp"
             android:padding="@dimen/_6sdp"
             android:background="@drawable/bg_circle"
             android:backgroundTint="@color/itemColor"
