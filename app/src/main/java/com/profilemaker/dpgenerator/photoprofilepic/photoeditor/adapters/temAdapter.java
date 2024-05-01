@@ -1,6 +1,6 @@
 package com.profilemaker.dpgenerator.photoprofilepic.photoeditor.adapters;
 
-import static com.profilemaker.dpgenerator.photoprofilepic.photoeditor.xProfile.FORMAT;
+import static com.profilemaker.dpgenerator.photoprofilepic.photoeditor.dpProfileMyApp.FORMAT;
 import static com.profilemaker.dpgenerator.photoprofilepic.photoeditor.utils.Constants.ITEM;
 
 import android.content.Context;
@@ -17,7 +17,7 @@ import com.bumptech.glide.request.BaseRequestOptions;
 import com.bumptech.glide.request.RequestOptions;
 
 import com.profilemaker.dpgenerator.photoprofilepic.photoeditor.R;
-import com.profilemaker.dpgenerator.photoprofilepic.photoeditor.xProfile;
+import com.profilemaker.dpgenerator.photoprofilepic.photoeditor.dpProfileMyApp;
 import com.profilemaker.dpgenerator.photoprofilepic.photoeditor.model.Datum;
 import com.profilemaker.dpgenerator.photoprofilepic.photoeditor.views.CornerLayout;
 
@@ -57,10 +57,10 @@ public class temAdapter extends RecyclerView.Adapter<temAdapter.ViewHolder> {
         }
         holder.tvTitle.setText(title);
         if (iPo){
-            Glide.with(this.ctx).load(xProfile.BACKEND_RESOURCES_URL + ITEM + image).apply((BaseRequestOptions<?>) ((RequestOptions) new RequestOptions().centerCrop()).error((int) R.mipmap.ic_launcher)).thumbnail(Glide.with(this.ctx).load(Integer.valueOf(R.drawable.iv_loading))).into(holder.ivItem);
+            Glide.with(this.ctx).load(dpProfileMyApp.BACKEND_RESOURCES_URL + ITEM + image).apply((BaseRequestOptions<?>) ((RequestOptions) new RequestOptions().centerCrop()).error((int) R.mipmap.ic_launcher)).thumbnail(Glide.with(this.ctx).load(Integer.valueOf(R.drawable.iv_loading))).into(holder.ivItem);
             holder.ivItem.setColorFilter(0);
         } else {
-            Glide.with(this.ctx).load(xProfile.BACKEND_RESOURCES_URL + ITEM + thumb+FORMAT).apply((BaseRequestOptions<?>) ((RequestOptions) new RequestOptions().centerCrop()).error((int) R.mipmap.ic_launcher)).thumbnail(Glide.with(this.ctx).load(Integer.valueOf(R.drawable.iv_loading))).into(holder.ivItem);
+            Glide.with(this.ctx).load(dpProfileMyApp.BACKEND_RESOURCES_URL + ITEM + thumb+FORMAT).apply((BaseRequestOptions<?>) ((RequestOptions) new RequestOptions().centerCrop()).error((int) R.mipmap.ic_launcher)).thumbnail(Glide.with(this.ctx).load(Integer.valueOf(R.drawable.iv_loading))).into(holder.ivItem);
             holder.rfItem.iBackgroundColor(this.ctx.getResources().getColor(R.color.black));
             holder.ivItem.setColorFilter(this.ctx.getResources().getColor(R.color.itemColor));
         }

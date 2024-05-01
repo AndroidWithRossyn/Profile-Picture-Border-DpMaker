@@ -1,3 +1,17 @@
+## 01 MAY 2024
+
+- firebase added
+- classes name change 
+- project send to kartik
+- icon change
+- store listing added
+- removed unused photos
+- docs removed
+- csv removed
+- keystore added
+- manual screenshot removed
+
+
 ## 26 APR 2024
 
 - package name changed

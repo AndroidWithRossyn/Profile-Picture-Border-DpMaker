@@ -129,7 +129,7 @@
             android:padding="@dimen/_6sdp"
             android:background="@drawable/bg_circle"
             android:backgroundTint="@color/itemColor"
-            android:src="@drawable/ic_round_close"/>
+            android:src="@drawable/ic_close"/>
 
         <TextView
             android:id="@+id/tvTitle"

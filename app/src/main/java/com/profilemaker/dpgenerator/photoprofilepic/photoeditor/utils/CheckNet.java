@@ -13,7 +13,7 @@ import java.net.HttpURLConnection;
 import java.net.URL;
 
 import com.profilemaker.dpgenerator.photoprofilepic.photoeditor.dialog.NoNetDialog;
-import com.profilemaker.dpgenerator.photoprofilepic.photoeditor.xProfile;
+import com.profilemaker.dpgenerator.photoprofilepic.photoeditor.dpProfileMyApp;
 
 public class CheckNet extends BroadcastReceiver {
 
@@ -49,7 +49,7 @@ public class CheckNet extends BroadcastReceiver {
 
     public void isConnected() {
         ConnectivityManager
-                cm = (ConnectivityManager) xProfile.getInstance().getApplicationContext()
+                cm = (ConnectivityManager) dpProfileMyApp.getInstance().getApplicationContext()
                 .getSystemService(Context.CONNECTIVITY_SERVICE);
         NetworkInfo activeNetwork = cm.getActiveNetworkInfo();
 

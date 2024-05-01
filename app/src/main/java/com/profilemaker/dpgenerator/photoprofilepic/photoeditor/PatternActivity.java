@@ -3,7 +3,7 @@ package com.profilemaker.dpgenerator.photoprofilepic.photoeditor;
 import static android.content.ContentValues.TAG;
 import static android.graphics.Color.BLACK;
 import static android.graphics.Color.WHITE;
-import static com.profilemaker.dpgenerator.photoprofilepic.photoeditor.xProfile.FORMAT;
+import static com.profilemaker.dpgenerator.photoprofilepic.photoeditor.dpProfileMyApp.FORMAT;
 import static com.profilemaker.dpgenerator.photoprofilepic.photoeditor.utils.Constants.ITEM;
 import static com.profilemaker.dpgenerator.photoprofilepic.photoeditor.utils.Constants.iBgJson;
 import static com.profilemaker.dpgenerator.photoprofilepic.photoeditor.utils.Constants.iBitmap;
@@ -261,7 +261,7 @@ public class PatternActivity extends BaseActivity implements iColorAdapter.iColo
             public void selFrame(int i) {
                 String image = iBgs.getData().get(0).getProductDetails().get(i).getImage();
                 iColor = COLOR.BG;
-                setBg(xProfile.BACKEND_RESOURCES_URL+ITEM+image+FORMAT);
+                setBg(dpProfileMyApp.BACKEND_RESOURCES_URL+ITEM+image+FORMAT);
             }
         });
         rvBg.setAdapter(bAdapter);
@@ -277,7 +277,7 @@ public class PatternActivity extends BaseActivity implements iColorAdapter.iColo
                 public void selFrame(int i) {
                     String image = iSte.getData().get(0).getProductDetails().get(i).getImage();
                     iColor = COLOR.STICKER;
-                    addSticker(xProfile.BACKEND_RESOURCES_URL + ITEM + image+".png");
+                    addSticker(dpProfileMyApp.BACKEND_RESOURCES_URL + ITEM + image+".png");
                 }
             });
             rvStickers.setAdapter(stickerAdapter);
@@ -305,7 +305,7 @@ public class PatternActivity extends BaseActivity implements iColorAdapter.iColo
                                 String image = iSte.getData().get(finalI).getProductDetails().get(i1).getImage();
                                 Log.e(TAG, "iClicked: " + iSte.getData().get(finalI).getProductDetails().get(i1).getImage());
                                 iColor = COLOR.STICKER;
-                                addSticker(xProfile.BACKEND_RESOURCES_URL+ITEM+image+".png");
+                                addSticker(dpProfileMyApp.BACKEND_RESOURCES_URL+ITEM+image+".png");
                             }
                         });
                         rvStickers.setAdapter(stickerAdapter);
@@ -381,7 +381,7 @@ public class PatternActivity extends BaseActivity implements iColorAdapter.iColo
             public void selFrame(int i) {
                 String image = iDeg.getData().get(0).getProductDetails().get(i).getImage();
                 iColor = COLOR.DEG;
-                setBg(xProfile.BACKEND_RESOURCES_URL+ITEM+image+FORMAT);
+                setBg(dpProfileMyApp.BACKEND_RESOURCES_URL+ITEM+image+FORMAT);
             }
         });
         rvColor.setAdapter(cAdapter);

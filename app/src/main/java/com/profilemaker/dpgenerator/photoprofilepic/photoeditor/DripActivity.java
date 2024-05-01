@@ -1,7 +1,7 @@
 package com.profilemaker.dpgenerator.photoprofilepic.photoeditor;
 
 import static android.content.ContentValues.TAG;
-import static com.profilemaker.dpgenerator.photoprofilepic.photoeditor.xProfile.FORMAT;
+import static com.profilemaker.dpgenerator.photoprofilepic.photoeditor.dpProfileMyApp.FORMAT;
 import static com.profilemaker.dpgenerator.photoprofilepic.photoeditor.utils.Constants.ITEM;
 import static com.profilemaker.dpgenerator.photoprofilepic.photoeditor.utils.Constants.iBitmap;
 import static com.profilemaker.dpgenerator.photoprofilepic.photoeditor.utils.Constants.iPortJson;
@@ -244,8 +244,8 @@ public class DripActivity extends BaseActivity implements DoubleAdapter.ColorLis
         dAdapter = new temAdapter(DripActivity.this, false, iPort.getData().get(0), i -> {
             String image = iPort.getData().get(0).getProductDetails().get(i).getImage();
             String mask = iPort.getData().get(0).getProductDetails().get(i).getMask();
-            setBg(xProfile.BACKEND_RESOURCES_URL+ITEM+image+FORMAT);
-            setPort(xProfile.BACKEND_RESOURCES_URL+ITEM+mask+FORMAT);
+            setBg(dpProfileMyApp.BACKEND_RESOURCES_URL+ITEM+image+FORMAT);
+            setPort(dpProfileMyApp.BACKEND_RESOURCES_URL+ITEM+mask+FORMAT);
         });
         rvBg.setAdapter(dAdapter);
 
@@ -257,7 +257,7 @@ public class DripActivity extends BaseActivity implements DoubleAdapter.ColorLis
         if (tabStickers.getSelectedTabPosition() == 0) {
             stickerAdapter = new StickerAdapter(DripActivity.this, iSte.getData().get(0), i -> {
                 String image = iSte.getData().get(0).getProductDetails().get(i).getImage();
-                addSticker(xProfile.BACKEND_RESOURCES_URL + ITEM + image+".png");
+                addSticker(dpProfileMyApp.BACKEND_RESOURCES_URL + ITEM + image+".png");
             });
             rvStickers.setAdapter(stickerAdapter);
         }
@@ -283,7 +283,7 @@ public class DripActivity extends BaseActivity implements DoubleAdapter.ColorLis
                             public void selFrame(int i1) {
                                 String image = iSte.getData().get(finalI).getProductDetails().get(i1).getImage();
                                 Log.e(TAG, "iClicked: " + iSte.getData().get(finalI).getProductDetails().get(i1).getImage());
-                                addSticker(xProfile.BACKEND_RESOURCES_URL+ITEM+image+".png");
+                                addSticker(dpProfileMyApp.BACKEND_RESOURCES_URL+ITEM+image+".png");
 
                             }
                         });

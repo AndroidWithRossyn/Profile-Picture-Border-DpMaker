@@ -20,7 +20,7 @@
             android:layout_height="@dimen/_25sdp"
             android:src="@drawable/ic_back"
             android:padding="@dimen/_2sdp"
-            android:background="@drawable/bg_border"
+            android:background="@drawable/bg_rectangle"
             android:layout_centerVertical="true"/>
 
         <TextView
@@ -40,7 +40,7 @@
             android:layout_height="@dimen/_25sdp"
             android:src="@drawable/ic_share"
             android:padding="@dimen/_5sdp"
-            android:background="@drawable/bg_border"
+            android:background="@drawable/bg_rectangle"
             android:layout_alignParentEnd="true"
             android:layout_centerVertical="true"/>
 

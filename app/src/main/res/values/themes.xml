@@ -23,8 +23,8 @@
         <item name="android:windowAnimationStyle">@style/DialogAnimat</item>
     </style>
     <style name="DialogAnimat">
-        <item name="android:windowEnterAnimation">@anim/slide_up_dialog</item>
-        <item name="android:windowExitAnimation">@anim/slide_out_down</item>
+        <item name="android:windowEnterAnimation">@anim/slide_up_dialog_anim</item>
+        <item name="android:windowExitAnimation">@anim/slide_out_down_anim</item>
     </style>
 
 </resources>

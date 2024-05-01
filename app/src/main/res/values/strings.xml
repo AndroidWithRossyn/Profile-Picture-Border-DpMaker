@@ -1,8 +1,16 @@
 <resources>
     <string name="app_name">DP-Profile</string>
-    <string name="your_portrait">Your Personal Profile Maker</string>
-    <string name="your_portrait_main">Transforming pixels into your personalized profile masterpiece.</string>
 
+
+    <string name="your_portrait">Your Personal Profile Maker</string>
+
+    <string name="your_portrait_main">Transforming pixels into your personalized profile masterpiece.</string>
+    <string name="nirayan_apps">Eshbcode Apps</string>
+    <string name="email_feedback">mangroliyasureshbhai.app@gmail.com</string>
+    <string name="more_apps">https://play.google.com/store/apps/dev?id=8533694176296979137</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="admob_app_id" translatable="false">ca-app-pub-3940256099942544~3347511713</string>
 
     <string name="save">Save</string>
     <string name="frame">Frame</string>

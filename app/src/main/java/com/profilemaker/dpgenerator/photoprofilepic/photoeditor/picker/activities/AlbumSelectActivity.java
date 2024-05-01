@@ -7,7 +7,6 @@ import android.content.res.Configuration;
 import android.database.ContentObserver;
 import android.database.Cursor;
 import android.net.Uri;
-import android.os.Build;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.Message;
@@ -29,7 +28,6 @@ import com.profilemaker.dpgenerator.photoprofilepic.photoeditor.R;
 import com.profilemaker.dpgenerator.photoprofilepic.photoeditor.picker.adapter.CustomAlbumSelectAdapter;
 import com.profilemaker.dpgenerator.photoprofilepic.photoeditor.picker.helpers.ConstantsCustomGallery;
 import com.profilemaker.dpgenerator.photoprofilepic.photoeditor.picker.models.Album;
-import com.profilemaker.dpgenerator.photoprofilepic.photoeditor.xProfile;
 
 
 public class AlbumSelectActivity extends HelperActivity {

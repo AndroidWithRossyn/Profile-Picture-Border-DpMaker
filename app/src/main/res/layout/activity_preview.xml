@@ -19,7 +19,7 @@
             android:layout_width="@dimen/_25sdp"
             android:layout_height="@dimen/_25sdp"
             android:layout_centerVertical="true"
-            android:background="@drawable/bg_border"
+            android:background="@drawable/bg_rectangle"
             android:padding="@dimen/_2sdp"
             android:src="@drawable/ic_back" />
 
@@ -59,7 +59,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_marginEnd="@dimen/_20sdp"
-                    android:background="@drawable/bg_insta"
+                    android:background="@drawable/bg_ins"
                     android:paddingBottom="@dimen/_9sdp">
 
                     <com.profilemaker.dpgenerator.photoprofilepic.photoeditor.views.CornerImage
@@ -169,7 +169,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="@dimen/_4sdp"
-                        android:background="@drawable/bg_round"
+                        android:background="@drawable/bg_rectangle_border"
                         android:gravity="center"
                         android:paddingStart="@dimen/_9sdp"
                         android:paddingTop="@dimen/_5sdp"
@@ -194,7 +194,7 @@
                     android:layout_centerVertical="true"
                     android:layout_margin="@dimen/_4sdp"
                     android:elevation="@dimen/_2sdp"
-                    android:src="@drawable/instagram"
+                    android:src="@drawable/ins_logo"
                     app:eStrokeColor="@color/white"
                     app:eStrokeWidth="@dimen/_2sdp" />
 
@@ -380,7 +380,7 @@
                     android:layout_centerVertical="true"
                     android:layout_margin="@dimen/_4sdp"
                     android:elevation="@dimen/_2sdp"
-                    android:src="@drawable/wt"
+                    android:src="@drawable/wt_logo"
                     app:eStrokeColor="@color/white"
                     app:eStrokeWidth="@dimen/_2sdp" />
 

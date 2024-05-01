@@ -245,7 +245,7 @@ public class ProfileActivity extends BaseActivity implements ToolAdapter.OnItemS
                 @Override
                 public void selFrame(int i) {
                     String image = iProfile.getData().get(0).getProductDetails().get(i).getImage();
-                    setBg(xProfile.BACKEND_RESOURCES_URL + ITEM + image);
+                    setBg(dpProfileMyApp.BACKEND_RESOURCES_URL + ITEM + image);
                 }
             });
             rvProfile.setAdapter(pAdapter);
@@ -272,7 +272,7 @@ public class ProfileActivity extends BaseActivity implements ToolAdapter.OnItemS
                             public void selFrame(int i1) {
                                 String image = iProfile.getData().get(finalI).getProductDetails().get(i1).getImage();
                                 Log.e(TAG, "iClicked: " + iProfile.getData().get(finalI).getProductDetails().get(i1).getImage());
-                                setBg(xProfile.BACKEND_RESOURCES_URL + ITEM + image);
+                                setBg(dpProfileMyApp.BACKEND_RESOURCES_URL + ITEM + image);
                             }
                         });
                         rvProfile.setAdapter(pAdapter);
@@ -291,7 +291,7 @@ public class ProfileActivity extends BaseActivity implements ToolAdapter.OnItemS
                 @Override
                 public void selFrame(int i) {
                     String image = iSte.getData().get(0).getProductDetails().get(i).getImage();
-                    addSticker(xProfile.BACKEND_RESOURCES_URL + ITEM + image + ".png");
+                    addSticker(dpProfileMyApp.BACKEND_RESOURCES_URL + ITEM + image + ".png");
                 }
             });
             rvStickers.setAdapter(stickerAdapter);
@@ -318,7 +318,7 @@ public class ProfileActivity extends BaseActivity implements ToolAdapter.OnItemS
                             public void selFrame(int i1) {
                                 String image = iSte.getData().get(finalI).getProductDetails().get(i1).getImage();
                                 Log.e(TAG, "iClicked: " + iSte.getData().get(finalI).getProductDetails().get(i1).getImage());
-                                addSticker(xProfile.BACKEND_RESOURCES_URL + ITEM + image + ".png");
+                                addSticker(dpProfileMyApp.BACKEND_RESOURCES_URL + ITEM + image + ".png");
                             }
                         });
                         rvStickers.setAdapter(stickerAdapter);

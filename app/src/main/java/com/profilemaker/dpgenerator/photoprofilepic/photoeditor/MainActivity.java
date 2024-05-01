@@ -96,16 +96,16 @@ public class MainActivity extends BaseActivity implements DefaultLifecycleObserv
         findViewById(R.id.iPrivacy).setOnClickListener(view -> {
             Log.d("qq", "moreApp");
             try {
-                startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse(xProfile.PRIVACY_POLICY_URL)));
+                startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse(dpProfileMyApp.PRIVACY_POLICY_URL)));
             } catch (android.content.ActivityNotFoundException anfe) {
-                startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse(xProfile.PRIVACY_POLICY_URL)));
+                startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse(dpProfileMyApp.PRIVACY_POLICY_URL)));
             }
         });
 
         findViewById(R.id.iFeedback).setOnClickListener(view -> {
             Intent emailIntent = new Intent(Intent.ACTION_SENDTO);
             emailIntent.setData(Uri.parse("mailto:"));
-            emailIntent.putExtra(Intent.EXTRA_EMAIL, new String[]{xProfile.FEEDBACK_EMAIL});
+            emailIntent.putExtra(Intent.EXTRA_EMAIL, new String[]{dpProfileMyApp.FEEDBACK_EMAIL});
             emailIntent.putExtra(Intent.EXTRA_TEXT, "");
             emailIntent.putExtra(Intent.EXTRA_SUBJECT, getString(R.string.app_name));
             startActivity(emailIntent);
@@ -114,17 +114,18 @@ public class MainActivity extends BaseActivity implements DefaultLifecycleObserv
         findViewById(R.id.iMore).setOnClickListener(view -> {
             Log.d("qq", "moreApp");
             try {
-                startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse(xProfile.DEVELOPER_ACCOUNT_URL)));
+                startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse(dpProfileMyApp.DEVELOPER_ACCOUNT_URL)));
             } catch (android.content.ActivityNotFoundException anfe) {
-                startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse(xProfile.DEVELOPER_ACCOUNT_URL)));
+                startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse(dpProfileMyApp.DEVELOPER_ACCOUNT_URL)));
             }
         });
 
 
         // List of Drawable resource IDs
         List<Integer> drawableList = new ArrayList<>();
-        drawableList.add(R.drawable.main_acitvity_images);
-
+        for (int i = 0; i < 10; i++) {
+            drawableList.add(R.drawable.main_acitvity_images);
+        }
 
 
         RecyclerView recyclerView = findViewById(R.id.recyclerView);

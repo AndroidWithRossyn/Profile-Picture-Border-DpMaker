@@ -75,7 +75,7 @@
             android:paddingStart="@dimen/_20sdp"
             android:paddingEnd="@dimen/_20sdp"
             android:layout_gravity="center_horizontal"
-            android:background="@drawable/bg_round"
+            android:background="@drawable/bg_rectangle_border"
             android:backgroundTint="@color/mainColor"
             android:gravity="center"
             android:text="@string/retry"

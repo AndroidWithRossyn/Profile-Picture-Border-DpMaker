@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "413713416374",
+    "project_id": "profile-maker-91fd7",
+    "storage_bucket": "profile-maker-91fd7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:413713416374:android:c7e5f73feb21f98f456617",
+        "android_client_info": {
+          "package_name": "com.profilemaker.dpgenerator.photoprofilepic.photoeditor"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDrjQXTdZ8D9AfzMs3nqmUWZpwmPOdpcx8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

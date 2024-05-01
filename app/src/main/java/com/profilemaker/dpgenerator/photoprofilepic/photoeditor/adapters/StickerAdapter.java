@@ -15,7 +15,7 @@ import com.bumptech.glide.request.BaseRequestOptions;
 import com.bumptech.glide.request.RequestOptions;
 
 import com.profilemaker.dpgenerator.photoprofilepic.photoeditor.R;
-import com.profilemaker.dpgenerator.photoprofilepic.photoeditor.xProfile;
+import com.profilemaker.dpgenerator.photoprofilepic.photoeditor.dpProfileMyApp;
 import com.profilemaker.dpgenerator.photoprofilepic.photoeditor.model.Datum;
 import com.profilemaker.dpgenerator.photoprofilepic.photoeditor.views.CornerLayout;
 
@@ -47,7 +47,7 @@ public class StickerAdapter extends RecyclerView.Adapter<StickerAdapter.ViewHold
         } else {
             holder.rfItem.setBorderColor(this.ctx.getResources().getColor(R.color.lineColor));
         }
-        Glide.with(this.ctx).load(xProfile.BACKEND_RESOURCES_URL + ITEM + image+".png").apply((BaseRequestOptions<?>) ((RequestOptions) new RequestOptions().centerCrop()).error((int) R.mipmap.ic_launcher)).thumbnail(Glide.with(this.ctx).load(Integer.valueOf(R.drawable.iv_loading))).into(holder.ivItem);
+        Glide.with(this.ctx).load(dpProfileMyApp.BACKEND_RESOURCES_URL + ITEM + image+".png").apply((BaseRequestOptions<?>) ((RequestOptions) new RequestOptions().centerCrop()).error((int) R.mipmap.ic_launcher)).thumbnail(Glide.with(this.ctx).load(Integer.valueOf(R.drawable.iv_loading))).into(holder.ivItem);
 
     }
 

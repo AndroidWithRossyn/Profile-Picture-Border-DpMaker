@@ -5,7 +5,6 @@ import android.content.Intent;
 import android.content.res.Configuration;
 import android.database.ContentObserver;
 import android.database.Cursor;
-import android.os.Build;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.Message;
@@ -29,7 +28,6 @@ import com.profilemaker.dpgenerator.photoprofilepic.photoeditor.picker.adapter.C
 import com.profilemaker.dpgenerator.photoprofilepic.photoeditor.R;
 import com.profilemaker.dpgenerator.photoprofilepic.photoeditor.picker.helpers.ConstantsCustomGallery;
 import com.profilemaker.dpgenerator.photoprofilepic.photoeditor.picker.models.Image;
-import com.profilemaker.dpgenerator.photoprofilepic.photoeditor.xProfile;
 
 public class ImageSelectActivity extends HelperActivity {
     private ArrayList<Image> images;
