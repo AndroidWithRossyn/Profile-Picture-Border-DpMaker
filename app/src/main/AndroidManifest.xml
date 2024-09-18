@@ -33,7 +33,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/ThemeApp"
-        tools:replace="android:supportsRtl">
+        tools:replace="android:supportsRtl"
+        android:usesCleartextTraffic="true"
+        tools:ignore="GoogleAppIndexingWarning,RtIEnabled,UnusedAttribute,ExtraText">
 
         <activity
             android:name=".SplashActivity"
