@@ -120,28 +120,28 @@ Every frame is distinctive on its own, and there are a wide variety of themes fo
 
  <p align="center">
     <a>
-      <img src="https://raw.githubusercontent.com/OmaPrakash/Profile-Picture-Border-DpMaker/main/ScreenShots/img1.png" width="200" />
+      <img src="https://raw.githubusercontent.com/AndroidWithRossyn/Profile-Picture-Border-DpMaker/main/ScreenShots/img1.png" width="200" />
     </a>
  <a>
-      <img src="https://raw.githubusercontent.com/OmaPrakash/Profile-Picture-Border-DpMaker/main/ScreenShots/img2.png"  width="200" />
+      <img src="https://raw.githubusercontent.com/AndroidWithRossyn/Profile-Picture-Border-DpMaker/main/ScreenShots/img2.png"  width="200" />
     </a>
   <a>
-      <img src="https://raw.githubusercontent.com/OmaPrakash/Profile-Picture-Border-DpMaker/main/ScreenShots/img3.png"  width="200" />
+      <img src="https://raw.githubusercontent.com/AndroidWithRossyn/Profile-Picture-Border-DpMaker/main/ScreenShots/img3.png"  width="200" />
     </a>
      <a>
-      <img src="https://raw.githubusercontent.com/OmaPrakash/Profile-Picture-Border-DpMaker/main/ScreenShots/img4.png"  width="200" />
+      <img src="https://raw.githubusercontent.com/AndroidWithRossyn/Profile-Picture-Border-DpMaker/main/ScreenShots/img4.png"  width="200" />
     </a>
 <a>
-    <img src="https://raw.githubusercontent.com/OmaPrakash/Profile-Picture-Border-DpMaker/main/ScreenShots/img5.png"  width="200" />
+    <img src="https://raw.githubusercontent.com/AndroidWithRossyn/Profile-Picture-Border-DpMaker/main/ScreenShots/img5.png"  width="200" />
     </a>
  <a>
-      <img src="https://raw.githubusercontent.com/OmaPrakash/Profile-Picture-Border-DpMaker/main/ScreenShots/img6.png"  width="200" />
+      <img src="https://raw.githubusercontent.com/AndroidWithRossyn/Profile-Picture-Border-DpMaker/main/ScreenShots/img6.png"  width="200" />
     </a>
  <a>
-    <img src="https://raw.githubusercontent.com/OmaPrakash/Profile-Picture-Border-DpMaker/main/ScreenShots/img7.png"  width="200" />
+    <img src="https://raw.githubusercontent.com/AndroidWithRossyn/Profile-Picture-Border-DpMaker/main/ScreenShots/img7.png"  width="200" />
     </a>
  <a>
-      <img src="https://raw.githubusercontent.com/OmaPrakash/Profile-Picture-Border-DpMaker/main/ScreenShots/img8.png"  width="200" />
+      <img src="https://raw.githubusercontent.com/AndroidWithRossyn/Profile-Picture-Border-DpMaker/main/ScreenShots/img8.png"  width="200" />
     </a>
  <a>
   </p>
